@@ -1,2 +1,2 @@
 # practise_MILANDR
-practise with MCU arm-cirtex M3 milandr
+practise with MCU arm-cortex M3 milandr
