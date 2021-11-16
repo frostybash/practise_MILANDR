@@ -1,0 +1,284 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: igor putin, NNZ, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\work\Milandr\Lab 2\Lab2.uvprojx
+Project File Date:  11/16/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos" [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD" [-W#warnings]
+6 warnings generated.
+compiling system_MDR32F9Qx.c...
+main.c(1): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+main.c(1): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(1): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+main.c(3): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+main.c(1): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(200): warning: padding size of 'PORT_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+main.c(14): warning: no previous extern declaration for non-static variable 'cur_i' [-Wmissing-variable-declarations]
+uint8_t cur_i;
+        ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t cur_i;
+^
+10 warnings generated.
+compiling main.c...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(138): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_OE     = (tmpreg_OE     & ~mask_s) | (PORT_InitStruct->PORT_OE        <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(139): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_FUNC   = (tmpreg_FUNC   & ~mask_l) | (PORT_InitStruct->PORT_FUNC      << (pos * 2));
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(140): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_ANALOG = (tmpreg_ANALOG & ~mask_s) | (PORT_InitStruct->PORT_MODE      <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(142): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                      | (PORT_InitStruct->PORT_PULL_DOWN <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(141): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PULL   = (tmpreg_PULL   & ~mask_d) | (PORT_InitStruct->PORT_PULL_UP   << (pos + 16))
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(144): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                      | (PORT_InitStruct->PORT_PD        <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(143): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PD     = (tmpreg_PD     & ~mask_d) | (PORT_InitStruct->PORT_PD_SHM    << (pos + 16))
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(145): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PWR    = (tmpreg_PWR    & ~mask_l) | (PORT_InitStruct->PORT_SPEED     << (pos * 2));
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(146): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_GFEN   = (tmpreg_GFEN   & ~mask_s) | (PORT_InitStruct->PORT_GFEN      <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(200): warning: padding size of 'PORT_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+16 warnings generated.
+compiling MDR32F9Qx_port.c...
+assembling startup_MDR32F9Qx.S...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_rst_clk.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_rst_clk.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(37): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: Clock frequencies and timeouts will be removed from MDR32F9Qx_rst_clk.c. Use definitions in MDR32F9Qx_config.h"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(37): warning: "Legacy v1.5.3: Clock frequencies and timeouts will be removed from MDR32F9Qx_rst_clk.c. Use definitions in MDR32F9Qx_config.h" [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(249): warning: enumeration value 'RST_CLK_HSE_OFF' not explicitly handled in switch [-Wswitch-enum]
+    switch (RST_CLK_HSE)
+            ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(374): warning: enumeration value 'RST_CLK_LSE_OFF' not explicitly handled in switch [-Wswitch-enum]
+    switch (RST_CLK_LSE)
+            ^
+6 warnings generated.
+compiling MDR32F9Qx_rst_clk.c...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(153): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                         + TIMER_CntInitStruct->TIMER_BRK_Polarity;
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(254): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return TIMERx->CNT;
+    ~~~~~~ ~~~~~~~~^~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(288): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return (TIMERx->PSG);
+    ~~~~~~  ~~~~~~~~^~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(360): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return (TIMERx->ARR);
+    ~~~~~~  ~~~~~~~~^~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(676): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                    + (TIMER_ChnInitStruct->TIMER_CH_FilterConf << TIMER_CH_CNTRL_CHFLTR_Pos);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(809): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return tmpreg;
+    ~~~~~~ ^~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(901): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return tmpreg;
+    ~~~~~~ ^~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1248): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                     + (TIMER_ChnOutInitStruct->TIMER_CH_NegOut_Mode     << TIMER_CH_CNTRL1_NSELOE_Pos);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1256): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                  +  TIMER_ChnOutInitStruct->TIMER_CH_DTG_ClockSource;
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1784): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM1_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1790): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM2_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/frost/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1796): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM3_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+16 warnings generated.
+compiling MDR32F9Qx_timer.c...
+linking...
+Program Size: Code=1396 RO-data=224 RW-data=4 ZI-data=1640  
+".\Objects\Lab2.axf" - 0 Error(s), 54 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://ic.milandr.ru/soft/Keil.MDR1986BExx.2.0.3.pack
+                Keil.MDR1986BExx.2.0.3
+                Milandr MDR1986BExx Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.0.3
+   * Component: PORT Version: 2.0.3
+   * Component: RST_CLK Version: 2.0.3
+   * Component: TIMER Version: 2.0.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MDR1986BE92
+  .\RTE\_Target_1
+  C:\Users\frost\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3
+  C:\Users\frost\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc
+  C:\Users\frost\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:2.0.3
+      Include file:  Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\startup\arm\system_MDR32F9Qx.h
+      Include file:  Libraries\SPL\MDR32Fx\MDR32F9Qx_config.h
+      Include file:  Libraries\SPL\MDR32Fx\inc\IRQ_Handler_Template\MDR32F9Qx_IT.h
+      Include file:  Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h
+      Source file:   Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\startup\arm\startup_MDR32F9Qx.S
+      Source file:   Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\startup\arm\system_MDR32F9Qx.c
+      Source file:   Libraries\SPL\MDR32Fx\src\IRQ_Handler_Template\MDR32F9Qx_IT.c
+      Include file:  Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h
+
+   * Component: Keil::Drivers:PORT:2.0.3
+      Source file:   Libraries\SPL\MDR32Fx\src\MDR32F9Qx_port.c
+      Include file:  Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h
+
+   * Component: Keil::Drivers:RST_CLK:2.0.3
+      Include file:  Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h
+      Source file:   Libraries\SPL\MDR32Fx\src\MDR32F9Qx_rst_clk.c
+
+   * Component: Keil::Drivers:TIMER:2.0.3
+      Include file:  Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h
+      Source file:   Libraries\SPL\MDR32Fx\src\MDR32F9Qx_timer.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
